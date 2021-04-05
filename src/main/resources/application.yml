@@ -1,0 +1,13 @@
+server:
+  error:
+    include-stacktrace: on_param
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/springbootessentials
+    username: root
+  jpa:
+    generate-ddl: true
+    properties:
+      hibernate:
+        ddl-auto: update
